@@ -26,12 +26,12 @@ import {
   ReloadInstructions,
 } from 'react-native/Libraries/NewAppScreen';
 
-class App extends React.Component{
+class Inicio extends React.Component{
   render(){
     return( 
       <View>
 
-        <Text>hola prueba</Text>
+        <Text>segunda vista</Text>
       </View>
     );
   }
@@ -47,6 +47,6 @@ const styles = StyleSheet.create({
   },
 
 });
-export default App;
+export default Inicio;
 
 
